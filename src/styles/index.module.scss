@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Comic Sans';
+    src: url(/fonts/LDFComicSans.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.chat_wrapper {
+    background-color: #ff9900;
+    background-image: url('/nyam-cat.gif');
+    background-size: 30%;
+}
+
+.secret_wrapper {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        color: white;
+        font-family: 'Comic Sans';
+        font-size: 1rem;
+    }
+}
+
+.secret_box {
+    width: max-content;
+    margin: 0.5rem 0 0 0;
+    width: 95%;
+    border: 1px solid black;
+}
+
+.chat {
+    width: 100%;
+    height: 70vh;
+    min-height: 50vh;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+}
+
+.control_wrapper {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.message_box {
+    background-color: white;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.submit_button {
+    background-color: gray;
+    border: 1px solid black;
+    margin-left: 0.75rem;
+    width: 30%;
+}
